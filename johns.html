@@ -1,0 +1,183 @@
+<!-- <!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products JSON</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        pre {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            overflow: auto;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Products JSON</h1>
+<pre id="jsonDisplay"></pre>
+
+<script>
+    // Global variable for products JSON
+    const products = [
+        {
+            "id": 1,
+            "name": "Product 1",
+            "description": "Description of Product 1.",
+            "price": 19.99,
+            "category": "Category A"
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "description": "Description of Product 2.",
+            "price": 29.99,
+            "category": "Category B"
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "description": "Description of Product 3.",
+            "price": 39.99,
+            "category": "Category A"
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "description": "Description of Product 4.",
+            "price": 49.99,
+            "category": "Category C"
+        },
+        {
+            "id": 5,
+            "name": "Product 5",
+            "description": "Description of Product 5.",
+            "price": 59.99,
+            "category": "Category B"
+        }
+    ];
+
+    // Convert JSON to string
+    const jsonString = JSON.stringify(products, null, 4); // Pretty print with 4 spaces
+
+    // Display the JSON string
+    document.getElementById("jsonDisplay").textContent = jsonString;
+</script>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products JSON</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        pre {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            overflow: auto;
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Products JSON</h1>
+<pre id="jsonDisplay"></pre>
+
+<script>
+    // Global variable for products JSON
+    const products = [
+        {
+            "id": 1,
+            "name": "Lipstick",
+            "description": "Matte finish, long-lasting lipstick",
+            "price": 20.00,
+            "categories": ["makeup", "lips"]
+        },
+        {
+            "id": 2,
+            "name": "Foundation",
+            "description": "Liquid foundation for a natural glow",
+            "price": 35.00,
+            "categories": ["makeup", "face"]
+        },
+        {
+            "id": 3,
+            "name": "Eyeshadow Palette",
+            "description": "12-shade eyeshadow palette with matte and shimmer finishes",
+            "price": 50.00,
+            "categories": ["makeup", "eyes"]
+        },
+        {
+            "id": 4,
+            "name": "Mascara",
+            "description": "Volume-boosting waterproof mascara",
+            "price": 18.00,
+            "categories": ["makeup", "eyes"]
+        },
+        {
+            "id": 5,
+            "name": "Blush",
+            "description": "Powder blush for a rosy glow",
+            "price": 15.00,
+            "categories": ["makeup", "face"]
+        },
+        {
+            "id": 6,
+            "name": "Highlighter",
+            "description": "Creamy highlighter for a radiant finish",
+            "price": 25.00,
+            "categories": ["makeup", "face"]
+        },
+        {
+            "id": 7,
+            "name": "Makeup Brushes Set",
+            "description": "10-piece professional makeup brush set",
+            "price": 40.00,
+            "categories": ["makeup tools"]
+        },
+        {
+            "id": 8,
+            "name": "Setting Spray",
+            "description": "Long-lasting setting spray to keep makeup in place",
+            "price": 15.00,
+            "categories": ["makeup", "face"]
+        }
+    ];
+
+    // Convert JSON to string
+    const jsonString = JSON.stringify(products, null, 4); // Pretty print with 4 spaces
+
+    // Display the JSON string
+    document.getElementById("jsonDisplay").textContent = jsonString;
+</script>
+
+</body>
+</html>
